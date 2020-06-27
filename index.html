@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>INTERIORS</title>
+<title>Kamble Interior's</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/css/w3.css">
 <link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Interiors</b></h3>
+    <h3 class="w3-padding-64"><b>Savin Kamble Interior & Civil Contractor</b></h3>
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
@@ -27,7 +29,7 @@
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Interiors</span>
+  <span>Savin Kamble Interior & Civil Contractor</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -44,44 +46,17 @@
   </div>
   
   <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="assets/imgs/Designs/photo-1467987506553-8f3916508521.jpg" style="width:100%" onclick="onClick(this)" alt="Nature's View">
-      <img src="assets/imgs/Designs/photo-1484154218962-a197022b5858.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with Designer chairs">
-      <img src="assets/imgs/Designs/photo-1489171078254-c3365d6e359f.jpg" style="width:100%" onclick="onClick(this)" alt="Feathered walls with designer couch">
-    </div>
-
-    <div class="w3-half">
-      <img src="assets/imgs/Designs/photo-1494203484021-3c454daf695d.jpg" style="width:100%" onclick="onClick(this)" alt="Tight scandinavian brick's design">
-      <img src="assets/imgs/Designs/photo-1497366216548-37526070297c.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="assets/imgs/Designs/photo-1497366412874-3415097a27e7.jpg" style="width:100%" onclick="onClick(this)" alt="Glass Castle">
-    </div>
-
-    <div class="w3-half">
-      <img src="assets/imgs/Designs/photo-1501183638710-841dd1904471.jpg" style="width:100%" onclick="onClick(this)" alt="Equisite Living room">
-      <img src="assets/imgs/Designs/photo-1505691938895-1758d7feb511.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the artrium">
-      <img src="assets/imgs/Designs/photo-1507089947368-19c1da9775ae.jpg" style="width:100%" onclick="onClick(this)" alt="5 star kitchen">
-    </div>
-
-    <div class="w3-half">
-      <img src="assets/imgs/Designs/photo-1513694203232-719a280e022f.jpg" style="width:100%" onclick="onClick(this)" alt="Grey and black">
-      <img src="assets/imgs/Designs/photo-1522708323590-d24dbb6b0267.jpg" style="width:100%" onclick="onClick(this)" alt="Cook and dine">
-      <img src="assets/imgs/Designs/photo-1554995207-c18c203602cb.jpg" style="width:100%" onclick="onClick(this)" alt="The easing space">
-    </div>
-  </div>
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
+  <div class="flex-container">
+    <div>
+      <button class="prev" onclick="mySlide('prev');"><i class="fa fa-arrow-left w3-xlarge"></i></button>
+      <img src="assets/imgs/Designs/img (1).jpg" id="slide" alt="">
+      <button class="next" onclick="mySlide('next');"><i class="fa fa-arrow-right w3-xlarge"></i></button>
     </div>
   </div>
 
   <!-- Services -->
   <div class="w3-container" id="services">
-    <h1 class="w3-xxxlarge w3-text-blue"><b>Services.</b></h1>
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Our Services.</b></h1>
     <hr id="dash" style="width:50px;border:5px solid black" class="w3-round">
     <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
     <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -108,29 +83,17 @@
       <div class="w3-light-grey">
         <img src="assets/imgs/Users/photo-1472099645785-5658abf4ff4e.jpg" style="width:100%">
         <div class="w3-container">
-          <h3>Username Here</h3>
-          <p class="w3-opacity">Designation Here</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>Savin Kamble</h3>
+          <p class="w3-opacity">Owner</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="assets/imgs/Users/photo-1586297098710-0382a496c814.jpg" style="width:100%">
+        <img src="assets/imgs/Users/pp.jpg" style="width:100%">
         <div class="w3-container">
-          <h3>Username Here</h3>
-          <p class="w3-opacity">Designation Here</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="assets/imgs/Users/photo-1559526323-cb2f2fe2591b.jpg" style="width:100%">
-        <div class="w3-container">
-          <h3>Username Here</h3>
-          <p class="w3-opacity">Designation Here</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>Akshay Kamble</h3>
+          <p class="w3-opacity">Owner</p>
         </div>
       </div>
     </div>
@@ -185,29 +148,24 @@
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-blue"><b>Contact.</b></h1>
     <hr id="dash" style="width:50px;border:5px solid black" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <p>Do you want us to style your home? <span style="font-size: 20px;">&#128512;</span>  We love meeting new people!</p>
+      <div class="w3-row w3-padding-32">
+          <span class="addr"><i class="fa fa-map-marker" style="width:30px;"></i>Sr. No. 77/1, Samarth Nagar, Chaitraban Soc, Krishna Park, Row House No. 4, New Sangvi, Pune - 61</span><br>
+          <span class="ph"><i class="fa fa-phone" style="width:30px"></i>(+91) 90110 62807</span><br>
+          <span class="ph"><i class="fa fa-phone" style="width:30px"></i>(+91) 98504 52807</span><br>
+          <span class="id"><i class="fa fa-envelope" style="width:30px"> </i></span><br>
       </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-blue w3-margin-bottom">Send Message</button>
-    </form>  
+    </div>
   </div>
-
-<!-- End page content -->
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="#" target="_blank" class="w3-hover-opacity">Amir Shaikh</a></p></div>
+<footer class="w3-container w3-padding-48 w3-light-grey w3-center w3-opacity w3-xlarge"> 
+  <p class="w3-medium" class="w3-hover-text-green">Follow us on</p>
+  <span><a href="#" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a></span>
+  <span><a href="#" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a></span>
+</footer>
 
 <script type="text/javascript" src="assets/js/script.js"></script>
 

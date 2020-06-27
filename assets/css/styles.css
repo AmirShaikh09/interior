@@ -42,3 +42,28 @@ body {
 .w3-display-topleft{
     width: 100%;
 }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  border: none;
+  transition: 0.5s ease;
+  opacity: 1;
+}
+
+.next, .prev{
+    background: teal;
+    border: none;
+    padding: 15px 15px;
+    opacity: 0.3;
+    margin: 5px 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#slide{
+    max-width: 500px;
+}
