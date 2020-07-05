@@ -35,7 +35,7 @@ function mySlide(param){
       i = 0; 
     }
   }
-  document.getElementById('slide').src = images[i];
+  document.getElementById('images').src = images[i];
 }
 
 // Script to open and close sidebar
