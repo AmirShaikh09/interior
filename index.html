@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Kamble Interior's</title>
+<title>Interior Designers</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="assets/css/w3.css">
 <link rel="stylesheet" href="assets/css/styles.css">
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -14,7 +14,7 @@
 <nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Savin Kamble Interior</b></h3>
+    <h3 class="w3-padding-64"><b>Interior Designs</b></h3>
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
@@ -44,20 +44,9 @@
     <h1 class="w3-xxxlarge w3-text-blue"><b>Showcase.</b></h1>
     <hr id="dash" class="w3-round" style="width:50px;border:5px solid black">
   </div>
-  
-  <!-- Photo grid (modal) -->
-  <div class="flex-container">
-    <div class="slide" style="max-width: 400px;">
-      <img src="assets/imgs/Designs/img (1).jpg" id="images" style="width: 100%;">
-      <!--
-        <button class="w3-button w3-display-left" onclick="mySlide('prev');"><i class="fa fa-arrow-left w3-xlarge"></i></button>
-        <button class="w3-button w3-display-right" onclick="mySlide('next');"><i class="fa fa-arrow-right w3-xlarge"></i></button>
-      -->
-      <div class="w3-section">
-        <button class="w3-button w3-light-grey" onclick="mySlide('prev');">❮ Prev</button>
-        <button class="w3-button w3-light-grey" onclick="mySlide('next');">Next ❯</button>
-      </div>
-    </div>
+
+  <div class="w3-content w3-section imgContainer">
+    <img name="slide" src="" style="height: auto; width: 600px;">
   </div>
 
   <!-- Services -->
@@ -84,13 +73,48 @@
   </div>
 
   <!-- The Team -->
-  <div class="w3-row-padding w3-grayscale">
+  <div class="w3-row-padding w3-grayscale users">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="assets/imgs/Users/usr1.jpeg" style="width:100%">
+        <img src="assets/imgs/Users/user.png" style="width:100%">
         <div class="w3-container">
-          <h3>Savin Kamble</h3>
-          <p class="w3-opacity">Owner</p>
+          <h3>Designer</h3>
+          <p class="w3-opacity">Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="assets/imgs/Users/user.png" style="width:100%">
+        <div class="w3-container">
+          <h3>Designer</h3>
+          <p class="w3-opacity">Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="assets/imgs/Users/user.png" style="width:100%">
+        <div class="w3-container">
+          <h3>Designer</h3>
+          <p class="w3-opacity">Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="assets/imgs/Users/user.png" style="width:100%">
+        <div class="w3-container">
+          <h3>Designer</h3>
+          <p class="w3-opacity">Designer</p>
+        </div>
+      </div>
+    </div><div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="assets/imgs/Users/user.png" style="width:100%">
+        <div class="w3-container">
+          <h3>Designer</h3>
+          <p class="w3-opacity">Designer</p>
         </div>
       </div>
     </div>
@@ -113,8 +137,11 @@
         <li class="w3-padding-16">20% furniture discount</li>
         <li class="w3-padding-16">Good deals</li>
         <li class="w3-padding-16">
-          <h2>Rs. 2,50,000/-</h2>
-          <span class="w3-opacity">Terms & conditions apply</span>
+          <h2>Rs. 2,50,000.00/-</h2>
+          <span class="w3-opacity">per room</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
         </li>
       </ul>
     </div>
@@ -128,8 +155,11 @@
         <li class="w3-padding-16">50% furniture discount</li>
         <li class="w3-padding-16">GREAT deals</li>
         <li class="w3-padding-16">
-          <h2>Rs. 5,00,000/-</h2>
+          <h2>Rs. 5,00,000.00 /-</h2>
           <span class="w3-opacity">Terms & conditions apply</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-blue w3-padding-large w3-hover-black">Sign Up</button>
         </li>
       </ul>
     </div>
@@ -142,10 +172,10 @@
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
       <p>Do you want us to style your home? <span style="font-size: 20px;">&#128512;</span>  We love meeting new people!</p>
       <div class="w3-row w3-padding-32">
-          <span class="addr"><i class="fa fa-map-marker" style="width:30px;"></i>Sr. No. 77/1, Samarth Nagar, Chaitraban Soc, Krishna Park, Row House No. 4, New Sangvi, Pune - 61</span><br>
-          <span class="ph"><i class="fa fa-phone" style="width:30px"></i>(+91) 90110 62807</span><br>
-          <span class="ph"><i class="fa fa-phone" style="width:30px"></i>(+91) 98504 52807</span><br>
-          <span class="id"><i class="fa fa-envelope" style="width:30px"></i> savinkamble@gmail.com </span><br>
+          <span class="addr"><i class="fa fa-map-marker" style="width:30px;"></i>Address here.</span><br>
+          <span class="ph"><i class="fa fa-phone" style="width:30px"></i>(00) 00000 00000.</span><br>
+          <span class="ph"><i class="fa fa-phone" style="width:30px"></i>(00) 00000 00000.</span><br>
+          <span class="id"><i class="fa fa-envelope" style="width:30px"></i>example.12345@mail.com</span><br>
       </div>
     </div>
   </div>

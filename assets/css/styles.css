@@ -66,3 +66,20 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.users{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mySlides {
+    display:none;
+    width: 100%;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
